@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favResiliaflix.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/stylelogin.css">
+    <title>Sign in - ResiliaFlix</title>
+</head>
+<body>
+    <div class="fundo">
+        <!-- <img src="imagens/fitaFilmes.svg" class="fitaFilme"> -->
+    </div>
+<div class="fonteResilia">  <!--mudar fonte padrão do bootstrap -->
+    <header>
+        <!-- menu -->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">ResiliaFlix</a>
+              <!--barra de pesquisa-->
+              <form class="form-inline d-flex w-10">
+                <input class="form-control " type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn d-flex" type="submit"><img src="imagens/imgBusca.svg" class="imgBusca"></button>
+              </form>
+              <!--barra de pesquisa-->
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav w-100 justify-content-end">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Inscreva-se</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                  </li>
+                  <li class="nav-item">
+                    <button type="submit" class="btn btn-default">Sign in</button>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <img src="imagens/logoresiliaflix.svg" class="logo">
+        <!-- LOGIN  -->
+            <div class="row justify-content-center ">
+                <div class="col-3 ">
+                    <form class="form-horizontal shadow-lg p-3 mb-5" id="formLogin">
+                        <div class="form-group">
+                          <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                          <div class="col-sm-12">
+                            <input type="text" class="form-control" id="inputEmail3" placeholder="Email">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                          <div class="col-sm-12">
+                            <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-sm-offset-2 col-sm-10 ">
+                            <div class="checkbox check">
+                              <label>
+                                <input type="checkbox"> Remember me
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group text-center">
+                          <div class="col-sm-offset-2 col-sm-10 ">
+                            <button type="submit" class="bntlogin btn btn-default offset-md-3" onclick="validaForm()">Sign in</button>
+                            <p><a href="recuperaçãoSenha.html" class="text-warning offset-md-3 ">Esqueci minha senha</a></p> 
+                        </div>
+                        </div>
+                      </form>
+    </main>
+</div>
+<!--footer-->
+<script src="JS/login.js"></script>
+</body>
+</html>

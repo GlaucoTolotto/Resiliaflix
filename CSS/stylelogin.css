@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600&display=swap');
+body{
+   background-color:#222222;
+}
+/* fonte resilia */
+.fonteResilia{
+    font-family: 'Arimo', sans-serif;
+}
+/* header */
+
+/* main */
+.logo{
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btn{
+    background-color: #FFDF2B;
+    transition: ease-in-out;
+}
+.bnt:hover{
+    background-color: #C0A405;
+    transition: ease-in-out;
+}
+label, input{
+    color: #F2E8E4;
+}
+.bntlogin{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.check{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.navbar{
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link  {
+    color: #F2E8E4;
+}
+.navbar-light .navbar-brand {
+    color: #F2E8E4;
+}
+.imgBusca{
+    width: 25px;
+    height: 25px;
+}
+/*css da pag recuperaçãoSenha*/
+h1{
+    color: #F2E8E4;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+.bntSenha{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
