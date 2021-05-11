@@ -6,48 +6,62 @@ body {
     background-color: #222222;
 }
 
-header {
-    background-color:#222222;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 250px 1000px;
-}
-
 header img {
-    width: 125px;
-    margin-left: 20px;
+    width: 100px;
+    margin: 0 20px 0 20px;
     
 }
 
-/* header img:hover {
-    transition: 1s;
-    width: 140px;
-} */
-
-header ul {
-    display: flex;
-    color:#F2E8E4;
-    margin-right: 25px;
-    font-family: 'Arimo', sans-serif;
-    font-size: 1.2vw;
-    box-sizing: border-box;
-}
-
-header li {
-    margin-right: 40px;
-    
-}
-
-header li:hover{
-    transition:1s;
-    font-size: 1.4vw;
-}
-
-#login {
+.cor-bortão-pesquisar{
     background-color: #FFDF2B;
-    color: black;
-    padding: 2px 6px;
+}
+
+.borda-sign-in {
+    background-color: #FFDF2B;
     border-radius: 2px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caixa-de-contato {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFDF2B;
+    width: 600px;
+    margin: 15px;
+    padding: 50px;
+    border-radius: 5px;
+    
+}
+
+
+.caixa-de-contato img {
+    height: 125px;
+    border-radius: 50%;
+}
+
+.caixa-de-contato h1 {
+    font-size: 2vw;
+}
+
+.caixa-de-contato h2 {
+    font-size: 1.6vw
+}
+
+.caixa-de-contato h3{
+    margin-top: 10px;
+}
+
+
+
+
+#foto-natalia {
+    height: 125px;
+    width: 115px;
+    border-radius: 50%;
 }
