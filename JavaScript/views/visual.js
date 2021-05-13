@@ -1,30 +1,31 @@
 
 function openPage() {
-    var x = document.getElementById("search").value;
+    let x = document.getElementById("search").value;
+    let transformando = x.toLowerCase();
     let listaDeFilmes = [
-        'De volta para o futuro',
-        'Star Wars',
-        'Star Trek',
-        'Matrix',
-        'Interstellar',
+        'de volta para o futuro',
+        'star Wars',
+        'star trek',
+        'matrix',
+        'interstellar',
         '2001 uma odisseia no espaço',
-        'Blade Runner',
-        'A chegada',
-        'Her',
-        'Wall-E',
-        'Jogador Numero 1',
-        'Inception',];
+        'blade Runner',
+        'a chegada',
+        'her',
+        'wall-E',
+        'jogador Numero 1',
+        'inception',];
 
     for (let i = 0; i < listaDeFilmes.length; i++) {
         console.log(listaDeFilmes)
-        if (x === listaDeFilmes[i].length) {
+        if (transformando === listaDeFilmes[i]) {
             window.open('/deucerto.html')
         }
 
     }
     try {
         for (let i = 0; i < listaDeFilmes.length; i++) {
-            if (x != listaDeFilmes[i].length) {
+            if (transformando != listaDeFilmes[i]) {
                 window.open("/erro404.html");
 
             }
