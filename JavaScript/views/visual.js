@@ -19,7 +19,8 @@ function openPage() {
     for (let i = 0; i < listaDeFilmes.length; i++) {
         console.log(listaDeFilmes)
         if (transformando === listaDeFilmes[i]) {
-            window.open('/deucerto.html')
+            pegaFilme();
+            //window.open('/deucerto.html')
         }
 
     }
