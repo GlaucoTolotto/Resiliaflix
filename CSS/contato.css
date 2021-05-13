@@ -20,6 +20,15 @@ header img {
     color: #F2E8E4;
 }
 
+.propriedades-botao-pesquisa {
+    width: 50px;
+    padding: 100px;
+}
+
+.input-pesquisar {
+    padding: 10px;
+}
+
 .imgBusca{
     width: 25px;
     height: 25px;
@@ -29,6 +38,10 @@ header img {
 
 .propriedades-botao-pesquisa {
     padding: 25px;
+}
+
+.sign-in {
+    background-color: #FFDF2B;
 }
 
 .container {

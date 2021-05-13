@@ -10,9 +10,6 @@
     <title>Sign in - ResiliaFlix</title>
 </head>
 <body>
-    <div class="fundo">
-        <!-- <img src="imagens/fitaFilmes.svg" class="fitaFilme"> -->
-    </div>
 <div class="fonteResilia">  <!--mudar fonte padrão do bootstrap -->
     <header>
         <!-- menu -->
@@ -21,8 +18,8 @@
               <a class="navbar-brand" href="#">ResiliaFlix</a>
               <!--barra de pesquisa-->
               <form class="form-inline d-flex w-10">
-                <input class="form-control " type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                <button class="btn d-flex" type="submit"><img src="imagens/imgBusca.svg" class="imgBusca"></button>
+                <input class="form-control" type="search" value="" id="search" onchange="openPage()">
+                <button class="btn d-flex" type="submit" value="Pesquisar"><img src="imagens/imgBusca.svg" class="imgBusca" onclick="openPage()"></button>
               </form>
               <!--barra de pesquisa-->
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -79,6 +76,7 @@
     </main>
 </div>
 <!--footer-->
-<script src="JS/login.js"></script>
+<!-- <script src="JS/login.js"></script> -->
+<script src="./JavaScript/views/validacaoDoCampoDePesquisa.js"></script>
 </body>
 </html>
