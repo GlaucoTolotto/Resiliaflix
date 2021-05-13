@@ -9,11 +9,11 @@ function openPage() {
         'matrix',
         'interstellar',
         '2001 uma odisseia no espaço',
-        'blade Runner',
+        'blade runner',
         'a chegada',
         'her',
-        'wall-E',
-        'jogador Numero 1',
+        'wall-e',
+        'jogador numero 1',
         'inception',];
 
     for (let i = 0; i < listaDeFilmes.length; i++) {
