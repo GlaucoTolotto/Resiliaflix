@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600&display=swap');
+/* geral */
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Arimo', sans-serif;
+    color: white;
+    border: none;
+}
+
+
+/* fonte resilia + menu */
+.fonteResilia{
+    font-family: 'Arimo', sans-serif;
+}
+
+.logo{
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btn{
+    background-color: #FFDF2B;
+    transition: ease-in-out;
+}
+.bnt:hover{
+    background-color: #C0A405;
+    transition: ease-in-out;
+}
+label, input{
+    color: #fdf9f9;
+}
+.bntlogin{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.check{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.navbar{
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link  {
+    color: #F2E8E4;
+}
+.navbar-light .navbar-brand {
+    color: #F2E8E4;
+}
+.imgBusca{
+    width: 25px;
+    height: 25px;
+}
+/* area de cadastro */
+input, label {
+    display: block;
+    width: 100%;
+}
+ 
+input:focus, label:focus{
+    outline: none;
+}
+
+a{
+    color: #FFDF2B;
+}
+body {
+    background-color:#222222;
+}
+/*forms*/
+
+#main-container {
+    padding-top:5vh; /*altura 5% da tela*/
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #242424;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+
+#main-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+}
+
+#register-form {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.full-box {
+    flex: 1 1 100%;
+    position: relative;
+    
+}
+
+.half-box {
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.spacing {
+    margin-right: 2.5%;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+#btn-submit { /* concertar erro no menu*/
+    border-bottom: 2pm solid #FFDF2B;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+}
+
+input {
+    border-radius: 2px;
+}
+input:focus {
+    color:black;
+    
+}
+
+input [type="submit"] {
+    background-color:  #FFDF2B;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+#agreement {
+    margin-right: 5px;
+}
+
+#agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+}
+
+#btn-submit {
+    color: black;
+    background-color: #FFDF2B;
+}
