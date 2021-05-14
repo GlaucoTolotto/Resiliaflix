@@ -17,10 +17,8 @@ function openPage() {
         'inception',];
 
     for (let i = 0; i < listaDeFilmes.length; i++) {
-        console.log(listaDeFilmes)
-        if (transformando === listaDeFilmes[i]) {
-            pegaFilme();
-            //window.open('/deucerto.html')
+        if (transformando == listaDeFilmes[i]) {
+            window.open('/deucerto.html');
         }
 
     }
