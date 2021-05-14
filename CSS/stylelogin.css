@@ -83,3 +83,7 @@ h1{
     height: 600px;
     margin: -750px 0 0 250px;
 }
+/* css do error do login e senha*/
+label.error { 
+    color: #ffdf2b;
+}
