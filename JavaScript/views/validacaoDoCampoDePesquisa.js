@@ -2,23 +2,25 @@
 function openPage() {
     let x = document.getElementById("search").value;
     let transformando = x.toLowerCase();
-    let listaDeFilmes = [
-        'de volta para o futuro',
-        'star Wars',
-        'star trek',
-        'matrix',
-        'interstellar',
-        '2001 uma odisseia no espaço',
-        'blade runner',
-        'a chegada',
-        'her',
-        'wall-e',
-        'jogador numero 1',
-        'inception',];
+    let listaDeFilmes = {
+        tt0088763: 'devoltaparaofuturo', 
+        tt0120915: 'starwars',
+        tt1408101: 'startrek',
+        tt0133093: 'matrix',
+        tt0816692: 'interstellar',
+        tt0062622: '2001umaodisseianoespaço', 
+        tt0083658: 'bladerunner', 
+        tt0115571: 'achegada', 
+        tt1798709: 'her', 
+        tt0910970: 'wall-e', 
+        tt1677720: 'jogadornumero1',
+        tt1375666: 'Inception', 
+    };
 
     for (let i = 0; i < listaDeFilmes.length; i++) {
         if (transformando == listaDeFilmes[i]) {
-            window.open('/deucerto.html');
+            //window.open('/deucerto.html');
+            console.log(listaDeFilmes)
         }
 
     }

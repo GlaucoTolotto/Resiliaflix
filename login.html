@@ -21,9 +21,16 @@
           <a class="navbar-brand" href="#">ResiliaFlix</a>
           <!--barra de pesquisa-->
           <form class="form-inline d-flex w-10">
-            <input class="form-control" type="search" value="" id="search" onchange="openPage()">
+            <input class="form-control" type="search" value="" id="search" onchange="pegaFilme(result)">
+
+            <div>
+              <h1 id="title"></h1>
+              <h3 id="plot-do-filme"></h3>
+              <img id="image" src="" alt="">
+          </div>
+
             <button class="btn d-flex" type="submit" value="Pesquisar"><img src="imagens/imgBusca.svg" class="imgBusca"
-                onclick="openPage()"></button>
+                onclick="pegaFilme()"></button>
           </form>
           <!--barra de pesquisa-->
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -92,6 +99,7 @@
     src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/jquery.validate.min.js"></script>
   <script src="/Resiliaflix/JavaScript/views/validaçãoEmailSenhaJquery.js"></script>
   <script src="./JavaScript/views/validacaoDoCampoDePesquisa.js"></script>
+  <script src="../Resiliaflix/JavaScript/views/infoFilmes.js"></script>
 </body>
 
 </html>
