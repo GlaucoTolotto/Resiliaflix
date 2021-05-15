@@ -19,13 +19,7 @@
       <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="./imagens/logo_resiliaflix.svg"></a>
-          <!--barra de pesquisa-->
-          <form class="form-inline d-flex w-10">
-            <input class="form-control input-pesquisar" type="search" placeholder="Pesquisar" aria-label="Pesquisar"
-              id="search" onchange="openPage()">
-            <button class="btn d-flex propriedades-botao-pesquisa" type="submit"><img src="imagens/imgBusca.svg"
-                class="imgBusca" onclick="openPage()"></button>
-          </form>
+          
           <!--barra de pesquisa-->
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav w-100 justify-content-end">
@@ -86,7 +80,7 @@
       </div>
     </div>
     <script src="./JavaScript/model/buscadorDeFilme.js"></script>
-    <script src="./JavaScript/controller/requisiçãoAPI.js"></script>
+    <script src="./JavaScript/controller/requisiçãoAPI-OMDB.js"></script>
     <script src="./JavaScript/views/validacaoDoCampoDePesquisa.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"

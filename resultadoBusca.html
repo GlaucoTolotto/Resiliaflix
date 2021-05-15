@@ -7,7 +7,11 @@
     <title>Resultado busca</title>
 </head>
 <body>
-
+    
+    <input type="text" id="search">
+    <button onclick="buscaFilme()">Procurar Filme</button>
+    
+    
     <div>
         <h1 id="title"></h1>
         <h3 id="plot-do-filme"></h3>
@@ -15,12 +19,9 @@
     </div>
 
 
-    <button onclick="procuraFilmes()">vai mano!!!!</button>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
-        crossorigin="anonymous"></script>
-    <script src="/JavaScript/controller/requisiçãoAPI-OMDB.js"></script>
-    <script src="/JavaScript/views/infoFilmes.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./JavaScript/views/validacaoDoCampoDePesquisa.js"></script>
+    <script src="./JavaScript/controller/requisiçãoAPI-OMDB.js"></script>
+    <script src="./JavaScript/views/infoFilmes.js"></script>
 </body>
 </html>

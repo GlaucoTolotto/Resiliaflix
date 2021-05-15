@@ -32,3 +32,21 @@ function procuraFilmes (){
         
         return codigoFinal;
 }
+
+
+function buscaFilme(){
+    $.ajax({
+        url: (`http://www.omdbapi.com/?i=${procuraFilmes()}&apikey=35ec292f`),
+        success: function(result){
+            pegaFilme(result);
+        }
+    })
+}
+
+
+
+function pegaFilme(result) {
+    $('#title').html(result.Title);
+    $('#plot-do-filme').html(result.Plot);
+    $('#image').attr('src', result.Poster);
+}
