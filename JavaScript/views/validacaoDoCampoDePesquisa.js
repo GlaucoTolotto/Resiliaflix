@@ -20,7 +20,7 @@ function procuraFilmes (){
             }
         }
         //se o valor digitado na busca nao existir, retorne algo
-        return window.open("/erro404.html");
+        return window.location = 'erro404.html';
     }
 
         //valor da busca
