@@ -128,6 +128,7 @@ label {
 
 input {
     border-radius: 2px;
+    color:black;
 }
 input:focus {
     color:black;
