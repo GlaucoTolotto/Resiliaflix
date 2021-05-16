@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,8 +21,8 @@
               <a class="navbar-brand" href="#">ResiliaFlix</a>
               <!--barra de pesquisa-->
               <form class="form-inline d-flex w-10">
-                <input class="form-control " type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                <button class="btn d-flex" type="submit"><img src="imagens/imgBusca.svg" class="imgBusca"></button>
+                <input class="form-control " type="search" placeholder="Pesquisar" aria-label="Pesquisar" id="search" onchange="openPage()">
+                <button class="btn d-flex" type="submit"><img src="imagens/imgBusca.svg" class="imgBusca" onclick="openPage()"></button>
               </form>
               <!--barra de pesquisa-->
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -101,9 +101,13 @@
         </form>
     </div>
     <p class="error-validation template"></p>
+<<<<<<< HEAD
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./JavaScript/controller/requisiçãoAPIBuscaCEP.js"></script>
     <footer></footer>
+=======
+    <script src="./JavaScript/views/validacaoDoCampoDePesquisa.js"></script>
+>>>>>>> 2d9f82ee1eaec9e16aa95c8b7ccb233b69ba74f6
 </body>
 </html>

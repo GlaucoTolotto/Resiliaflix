@@ -1,46 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 Not Found</title>
-    <link rel="stylesheet" href="CSS/bootstrap.css">
-    <link rel="stylesheet" href="CSS/stylelogin.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 Not Found</title>
+  <link rel="stylesheet" href="CSS/bootstrap.css">
+  <link rel="stylesheet" href="CSS/stylelogin.css">
 </head>
+
 <body>
-    <header>
-        <!-- menu -->
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">ResiliaFlix</a>
-              <!--barra de pesquisa-->
-              <form class="form-inline d-flex w-10">
-                <input class="form-control" type="search" value="" id="search" onchange="openPage()">
-                <button class="btn d-flex" type="submit" value="Pesquisar"><img src="imagens/imgBusca.svg" class="imgBusca" onclick="openPage()"></button>
-              </form>
-              <!-- fim da barra de pesquisa-->
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav w-100 justify-content-end">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Inscreva-se</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
-                  </li>
-                  <li class="nav-item">
-                    <button type="submit" class="btn btn-default">Sign in</button>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
-    <main>
-        <!-- imagem -->
-        <img src="imagens/404.svg" alt="404notfound" class="notfound">
-        <img src="imagens/robo.svg" alt="robo" class="robo">
-    </main>
-   
+  <header>
+    <!-- menu -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">ResiliaFlix</a>
+        <!--barra de pesquisa-->
+        <form class="form-inline d-flex w-10">
+          <input class="form-control" type="search" value="" id="search" onchange="openPage()">
+          <button class="btn d-flex" type="submit" value="Pesquisar" onclick="openPage()"><img
+              src="imagens/imgBusca.svg" class="imgBusca" onclick="openPage()"></button>
+        </form>
+        <!-- fim da barra de pesquisa-->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav w-100 justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Inscreva-se</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+            <li class="nav-item">
+              <button type="submit" class="btn btn-default">Sign in</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- imagem -->
+    <img src="imagens/404.svg" alt="404notfound" class="notfound">
+    <img src="imagens/robo.svg" alt="robo" class="robo">
+  </main>
+  <script src="./JavaScript/views/validacaoDoCampoDePesquisa.js"></script>
 </body>
+
 </html>
