@@ -5,4 +5,4 @@ function buscaFilme(){
             pegaFilme(result);
         }
     })
-}
+} 
