@@ -15,6 +15,20 @@ body{
 .logomenu{
     width: 250px;
 }
+/*links do header*/
+#hover-links:hover {
+    color:white; 
+ }
+ 
+ 
+ .sign-in:hover {
+     background-color: #fde662;
+ }
+ 
+ #link-sign-in {
+     text-decoration: none;
+     color: black;
+ }
 /* main */
 .logo{
     display: block;

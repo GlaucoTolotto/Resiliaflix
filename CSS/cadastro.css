@@ -14,16 +14,12 @@
 .fonteResilia{
     font-family: 'Arimo', sans-serif;
 }
-
-.logo{
-    display: block;
-    width: 250px;
-    height: 250px;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+header img {
+    width: 100px;
+    margin: 0 20px 0 20px;
+    
 }
+
 .btn{
     background-color: #FFDF2B;
     transition: ease-in-out;
@@ -158,3 +154,17 @@ input [type="submit"] {
     color: black;
     background-color: #FFDF2B;
 }
+
+#hover-links:hover {
+    color:white; 
+ }
+ 
+ 
+ .sign-in:hover {
+     background-color: #fde662;
+ }
+ 
+ #link-sign-in {
+     text-decoration: none;
+     color: black;
+ }
