@@ -20,28 +20,34 @@ header img {
     color: #F2E8E4;
 }
 
-#hover-links:hover {
-   color:white; 
+.propriedades-botao-pesquisa {
+    width: 50px;
+    padding: 100px;
 }
 
-
-.sign-in:hover {
-    background-color: #fde662;
+.input-pesquisar {
+    padding: 10px;
 }
 
-#link-sign-in {
-    text-decoration: none;
-    color: black;
+.imgBusca{
+    width: 25px;
+    height: 25px;
+    background-color: #FFDF2B;
+    border-radius: 2px;
+}
+
+.propriedades-botao-pesquisa {
+    padding: 25px;
 }
 
 .sign-in {
     background-color: #FFDF2B;
 }
+
 .container {
     display: flex;
     flex-wrap: wrap;
 }
-
 
 .caixa-de-contato {
     display:flex;
@@ -74,7 +80,7 @@ header img {
 }
 
 
-/* foto da natalia com propreidade diferente pois tem diametros diferentes por isso em id  */
+
 #foto-natalia {
     height: 125px;
     width: 115px;

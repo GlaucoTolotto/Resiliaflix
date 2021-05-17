@@ -10,12 +10,9 @@
     <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js" ></script>
     <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/jquery.validate.min.js" ></script>
     <script src="/Resiliaflix/JavaScript/views/validaçãoEmailSenhaJquery.js"></script>
-    <title>Recuperar Senha | ResiliaFlix</title>
+    <title>Entrar | ResiliaFlix</title>
 </head>
 <body>
-    <div class="fundo">
-        <!-- <img src="imagens/fitaFilmes.svg" class="fitaFilme"> -->
-    </div>
 <div class="fonteResilia">  <!--mudar fonte padrão do bootstrap -->
     <header>
         <!-- menu -->
@@ -24,8 +21,8 @@
               <a class="navbar-brand" href="#">ResiliaFlix</a>
               <!--barra de pesquisa-->
               <form class="form-inline d-flex w-10">
-                <input class="form-control " type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                <button class="btn d-flex" type="submit"><img src="imagens/imgBusca.svg" class="imgBusca"></button>
+                <input class="form-control" type="search" value="" id="search" onchange="openPage()">
+                <button class="btn d-flex" type="submit" value="Pesquisar"><img src="imagens/imgBusca.svg" class="imgBusca" onclick="openPage()"></button>
               </form>
               <!--barra de pesquisa-->
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -51,22 +48,44 @@
             <div class="row justify-content-center ">
                 <div class="col-3 ">
                     <form class="form-horizontal shadow-lg p-3 mb-5" id="formLogin">
-                        <div class="form-group">
-                            <h1>Recuperar senha</h1>
-                          <label for="inputEmail3" class="col-sm-2 control-label w-100 ">Email cadastrado</label>
-                          <div class="col-sm-12" >
+                        <div class="form-group" >
+                          <label for="inputEmail3" class="col-sm-2 control-label" name="email">Email</label>
+                          <div class="col-sm-12">
+                            
                             <input type="text" name="email" class="form-control" id="inputEmail3" placeholder="Email">
+                            <!-- <input type="text" class="form-control" id="inputEmail3" placeholder="Email"> -->
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputPassword3" class="col-sm-2 control-label" name="senha">Password</label>
+                          <div class="col-sm-12">
+                            <input type="password" name="senha" class="form-control" id="inputPassword3" placeholder="Password">
+                            <!-- <input type="password" class="form-control" id="inputPassword3" placeholder="Password"> -->
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-sm-offset-2 col-sm-10 ">
+                            <div class="checkbox check">
+                              <label>
+                                <input type="checkbox"> Remember me
+                              </label>
+                            </div>
                           </div>
                         </div>
                         <div class="form-group text-center">
                           <div class="col-sm-offset-2 col-sm-10 ">
-                            <button type="submit" class="bntSenha btn btn-default offset-md-3">RECUPERAR</button>
+                            
+                            <input type="submit" value="Entrar" class="bntlogin btn btn-default offset-md-3">
+                            <!-- <button type="submit" class="bntlogin btn btn-default offset-md-3">Sign in</button> -->
+                            <p><a href="recuperaçãoSenha.html" class="text-warning offset-md-3 ">Esqueci minha senha</a></p> 
                         </div>
                         </div>
                       </form>
     </main>
 </div>
 <!--footer-->
+<!-- <script src="JS/login.js"></script> -->
 
+<script src="./JavaScript/views/validacaoDoCampoDePesquisa.js"></script>
 </body>
 </html>
