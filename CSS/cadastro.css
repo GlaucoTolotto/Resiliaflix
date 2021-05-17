@@ -102,7 +102,6 @@ body {
 .full-box {
     flex: 1 1 100%;
     position: relative;
-    
 }
 
 .half-box {
@@ -130,6 +129,7 @@ input {
     border-radius: 2px;
     color:black;
 }
+
 input:focus {
     color:black;
     
@@ -157,4 +157,16 @@ input [type="submit"] {
 #btn-submit {
     color: black;
     background-color: #FFDF2B;
+}
+
+/*rodape*/
+.rodape {
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    position: relative;
+    width: 100%;
+    background-color:#242424;
+    color:#FFDF2B;    
 }
