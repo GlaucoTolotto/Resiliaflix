@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="PT-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +13,7 @@
     <div class="fundo">
         <!-- <img src="imagens/fitaFilmes.svg" class="fitaFilme"> -->
     </div>
-<div class="fonteResilia"> 
+<div class="fonteResilia">  <!--mudar fonte padrão do bootstrap -->
     <header>
         <!-- menu -->
         <nav class="navbar navbar-expand-lg navbar-light ">
@@ -21,8 +21,8 @@
               <a class="navbar-brand" href="#">ResiliaFlix</a>
               <!--barra de pesquisa-->
               <form class="form-inline d-flex w-10">
-                <input class="form-control " type="search" placeholder="Pesquisar" aria-label="Pesquisar" id="search" onchange="openPage()">
-                <button class="btn d-flex" type="submit"><img src="imagens/imgBusca.svg" class="imgBusca" onclick="openPage()"></button>
+                <input class="form-control " type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn d-flex" type="submit"><img src="imagens/imgBusca.svg" class="imgBusca"></button>
               </form>
               <!--barra de pesquisa-->
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -45,9 +45,10 @@
     <div id="main-container">
         <h1>Cadastre-se</h1>
         <form id="register-form">
+            <form id="formLogin"></form>
             <div class="full-box ">
                 <label for="email">E-mail</label>
-                <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                <input type="text" name="email" id="email" placeholder="Digite seu e-mail">
             </div>
              <div class="half-box spacing">
                 <label for="name">Nome</label>
@@ -72,7 +73,7 @@
             </div>
             <div class="half-box">
                 <label for="endereco">Endereço</label>
-                <input type="text" name="text" id="endereco"readonly>
+                <input type="text" name="text" id="endereço" placeholder="">
             </div>
             <div class="half-box spacing">
                 <label for="number">Número</label>
@@ -80,15 +81,15 @@
             </div>
             <div class="half-box">
                 <label for="bairro">Bairro</label>
-                <input type="text" name="text" id="bairro"readonly>
+                <input type="text" name="text" id="bairro" placeholder="">
             </div>
             <div class="half-box spacing">
                 <label for="cidade">Cidade</label>
-                <input type="text" name="text" id="cidade"readonly>
+                <input type="text" name="cidade" id="cidade" placeholder="">
             </div>
             <div class="half-box">
                 <label for="estado">Estado</label>
-                <input type="text" name="text" id="estado"readonly>
+                <input type="text" name="estado" id="estado" placeholder="">
             </div>
             <div class="full-box">
                 <input type="checkbox" name="agreement" id="agreement">
@@ -97,10 +98,11 @@
             <div class="full-box">
                 <input type="submit" id="btn-submit" value="Registrar">      
             </div>
-
+            </form>
         </form>
     </div>
     <p class="error-validation template"></p>
+<<<<<<< HEAD
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -111,5 +113,11 @@
 
     <script src="./JavaScript/views/validacaoDoCampoDePesquisa.js"></script>
 
+=======
+    <!-- jquery email e senha -->
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js" ></script>
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/jquery.validate.min.js" ></script>
+    <script src="/Resiliaflix/JavaScript/views/validaçãoEmailSenhaJquery.js"></script>
+>>>>>>> 41eb4f44c86b2f93bfb94bab2c291089bed013d2
 </body>
 </html>

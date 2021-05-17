@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 *{ 
     margin: 0;
     padding: 0;
@@ -32,6 +33,9 @@ body{
 .bnt:hover{
     background-color: #C0A405;
     transition: ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #C0A405;
 }
 label, input{
     color: #F2E8E4;
@@ -87,6 +91,7 @@ h1{
 label.error { 
     color: #ffdf2b;
 }
+<<<<<<< HEAD
 
 /*rodape*/
 .rodape p1{
@@ -100,3 +105,99 @@ label.error {
     color:#FFDF2B; 
     
 }
+=======
+/* css da pag home */
+.fitaImg{
+    display: inline-block;
+    width: 100%;
+    margin: -200px 0 0 200px;
+    
+}
+.imgPlataforma{
+    display: inline-block;
+    width: 800px;
+    height: 800px;
+    margin: -790px 0 0 420px;
+}
+.carousel-inner{
+    display: flex;
+    margin: -200px 0 0 0;
+}
+/* busca*/
+.form-control {
+    width: 300px;
+    background-color: #222222;
+    color: #F2E8E4;
+    cursor: pointer;
+    border-color: #fff236;
+}
+
+.titulo-carrosel{
+    color: wheat;
+}
+.imagem-carrossel {
+    object-fit: cover;
+    object-position: 0 50%;
+    height: 300px;
+    background-color: black;
+    opacity: 0.6;
+}
+.imagem-carrossel-um {
+    object-fit: cover;
+    object-position: 0 25%;
+    height: 300px;
+    background-color: black;
+    opacity: 0.6;
+}
+.imagem-carrossel-dois {
+    object-fit: cover;
+    object-position: 0 65%;
+    height: 300px;
+    background-color: black;
+    opacity: 0.6;
+}
+.imagem-carrossel-tres {
+    object-fit: cover;
+    object-position: 0 45%;
+    height: 300px;
+    background-color: black;
+    opacity: 0.6;
+}
+.imagem-carrossel-quatro {
+    object-fit: cover;
+    object-position: 0 5%;
+    height: 300px;
+    background-color: black;
+    opacity: 0.6;
+}
+.imagem-carrossel-cinco {
+    object-fit: cover;
+    object-position: 0 50%;
+    height: 300px;
+    background-color: black;
+    opacity: 0.6;
+}
+.imagem-carrossel-seis {
+    object-fit: cover;
+    object-position: 0 35%;
+    height: 300px;
+    background-color: black;
+    opacity: 0.6;
+}
+.imagem-carrossel-sete {
+    object-fit: cover;
+    object-position: 0 5%;
+    height: 300px;
+    background-color: black;
+    opacity: 0.6;
+}
+.imagem-carrossel-oito {
+    object-fit: cover;
+    object-position: 0 5%;
+    height: 300px;
+    background-color: black;
+    opacity: 0.6;
+}
+
+
+>>>>>>> 41eb4f44c86b2f93bfb94bab2c291089bed013d2
