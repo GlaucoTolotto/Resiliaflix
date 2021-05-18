@@ -4,8 +4,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Arimo', sans-serif;
-    color: white;
+    font-family: 'Montserrat', sans-serif;
     border: none;
 }
 
@@ -13,6 +12,10 @@
 /* fonte resilia + menu */
 .fonteResilia{
     font-family: 'Arimo', sans-serif;
+}
+
+.hover-logo:hover {
+    color: #C0A405;
 }
 
 .logo{

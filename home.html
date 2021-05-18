@@ -1,59 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="CSS/stylelogin.css">
-    <title>Home | ResiliaFlix</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/stylelogin.css">
+  <link rel="stylesheet" href="CSS/home.css" <title>Home | ResiliaFlix</title>
 </head>
+
 <body>
-    <div class="fonteResilia">  <!--mudar fonte padrão do bootstrap -->
-        <header>
-            <!-- menu -->
-            <nav class="navbar navbar-expand-lg navbar-light ">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">ResiliaFlix</a>
-                  <!--barra de pesquisa-->
-                  <form class="form-inline d-flex w-10">
-                    <input class="form-control" type="search" value="" id="search" onchange="openPage()">
-                    <button class="btn d-flex" type="submit" value="Pesquisar"><img src="imagens/imgBusca.svg" class="imgBusca" onclick="openPage()"></button>
-                  </form>
-                  <!--barra de pesquisa-->
-                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav w-100 justify-content-end">
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Inscreva-se</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
-                      </li>
-                      <li class="nav-item">
-                        <button type="submit" class="btn btn-default">Sign in</button>
-                      </li>
-                      
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-        </header>
-        <main>
-                <img src="imagens/fita.svg" class="fitaImg" alt="fita">
-                <img src="imagens/plataforma.svg" class="imgPlataforma" alt="plataforma">
-            </div>
-        </main>
-        <div class="row">
+  <div class="fonteResilia">
+    <!--mudar fonte padrão do bootstrap -->
+    <header>
+      <!-- menu -->
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" id="hover-logo" href="/index.html">ResiliaFlix</a>
+          <!--barra de pesquisa-->
+          <input class="form-control" type="search" value="" id="search" onchange="buscaFilme()">
+          <button class="btn d-flex" type="submit" value="Pesquisar"><img src="imagens/imgBusca.svg" class="imgBusca"
+              onclick="buscaFilme()"></button>
+          <!--barra de pesquisa-->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav w-100 justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link" href="./cadastro.html">Inscreva-se</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contato.html">Contato</a>
+              </li>
+              <li class="nav-item">
+                <button type="submit" class="btn btn-default">Sign in</button>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="roloDeFilme-e-logo">
+        <img src="imagens/fita.svg" class="fitaImg" alt="fita">
+        <img src="imagens/plataforma.svg" class="imgPlataforma" alt="plataforma">
+      </div>
+      <div class="row">
         <div class="col-12">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="imagens/slide/jogador n1.jpg" class="d-block w-100 imagem-carrossel" alt="...">
                 <div class="carousel-caption d-none d-md-block h-50 titulocar">
-                    <h1 class="titulo-carrosel">First slide label</h1>
-                    <p class="p-carrosel">Some representative placeholder content for the first slide.</p>
-                  </div>
+                  <h1 class="titulo-carrosel">First slide label</h1>
+                  <p class="p-carrosel">Some representative placeholder content for the first slide.</p>
+                </div>
               </div>
               <div class="carousel-item">
                 <img src="imagens/slide/Inception.jpg" class="d-block w-100 imagem-carrossel-um" alt="...">
@@ -83,22 +85,46 @@
                 <img src="imagens/slide/a chegada.jpg" class="d-block w-100 imagem-carrossel-oito" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="imagens/slide/de volta para o futuro.jpg" class="d-block w-100 imagem-carrossel-oito" alt="...">
+                <img src="imagens/slide/de volta para o futuro.jpg" class="d-block w-100 imagem-carrossel-oito"
+                  alt="...">
               </div>
               <div class="carousel-item">
                 <img src="imagens/slide/minorityreport.jpg" class="d-block w-100 imagem-carrossel-oito" alt="...">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-        </div>
           </div>
         </div>
-        </body>
+      </div>
+      <div class="container-geral-info-filmes">
+        <h1 id="title"></h1>
+        <div class="informacoes-filmes">
+          <div class="sobre-o-filmes">
+            <p id="plot-do-filme"></p>
+            <p id="genre"></p>
+            <p id="director"></p>
+          </div>
+          <img id="image" src="" alt="">
+        </div>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./JavaScript/views/validacaoDoCampoDePesquisa.js"></script>
+    <script src="JavaScript/controller/requisiçãoAPI-OMDB.js"></script>
+    <script src="./JavaScript/views/infoFilmes.js"></script>
+</body>
+
 </html>

@@ -5,6 +5,9 @@
 body {
     background-color: #222222;
 }
+.hover-logo:hover {
+    color: #C0A405;
+}
 
 header img {
     width: 100px;
