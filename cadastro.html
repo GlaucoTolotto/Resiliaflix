@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,115 +10,104 @@
     <link rel="stylesheet" type="text/css" href="./CSS/cadastro.css">
     <title>Register</title>
 </head>
+
 <body>
     <div class="fundo">
         <!-- <img src="imagens/fitaFilmes.svg" class="fitaFilme"> -->
     </div>
-<div class="fonteResilia">  <!--mudar fonte padrão do bootstrap -->
-    <header>
-        <!-- menu -->
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">ResiliaFlix</a>
-              <!--barra de pesquisa-->
-              <form class="form-inline d-flex w-10">
-                <input class="form-control " type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                <button class="btn d-flex" type="submit"><img src="imagens/imgBusca.svg" class="imgBusca"></button>
-              </form>
-              <!--barra de pesquisa-->
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav w-100 justify-content-end">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Inscreva-se</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
-                  </li>
-                  <li class="nav-item">
-                    <button type="submit" class="btn btn-default">Sign in</button>
-                  </li>
-                  
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
-    <div id="main-container">
-        <h1>Cadastre-se</h1>
-        <form id="register-form">
-            <form id="formLogin"></form>
-            <div class="full-box ">
-                <label for="email">E-mail</label>
-                <input type="text" name="email" id="email" placeholder="Digite seu e-mail">
-            </div>
-             <div class="half-box spacing">
-                <label for="name">Nome</label>
-                <input type="name" name="name" id="name" placeholder="Digite o seu nome">
-            </div>
-            <div class="half-box">
-                <label for="text">RG</label>
-                <input type="text" name="numer" id="rg" placeholder="Digite o seu RG">
-            </div>
-        
-            <div class="half-box spacing">
-                <label for="password">Senha</label>
-                <input type="password" name="password" id="password" placeholder="Digite a sua senha">
-            </div>
-            <div class="half-box">
-                <label for="passconfirmation">Confirmação de senha</label>
-                <input type="password" name="passconfirmation" id="passconfirmation" placeholder="Confirme sua senha">
-            </div>
-            <div class="half-box spacing">
-                <label for="cep">Cep</label>
-                <input type="text" name="text" id="cep" placeholder="Digite o seu cep">
-            </div>
-            <div class="half-box">
-                <label for="endereco">Endereço</label>
-                <input type="text" name="text" id="endereço" placeholder="">
-            </div>
-            <div class="half-box spacing">
-                <label for="number">Número</label>
-                <input type="text" name="text" id="numero" placeholder="">
-            </div>
-            <div class="half-box">
-                <label for="bairro">Bairro</label>
-                <input type="text" name="text" id="bairro" placeholder="">
-            </div>
-            <div class="half-box spacing">
-                <label for="cidade">Cidade</label>
-                <input type="text" name="cidade" id="cidade" placeholder="">
-            </div>
-            <div class="half-box">
-                <label for="estado">Estado</label>
-                <input type="text" name="estado" id="estado" placeholder="">
-            </div>
-            <div class="full-box">
-                <input type="checkbox" name="agreement" id="agreement">
-                <label for="agreement" id="agreement-label">Eu li e aceito os <a href="#">termos de uso</a></label>
-            </div>
-            <div class="full-box">
-                <input type="submit" id="btn-submit" value="Registrar">      
-            </div>
+    <div class="fonteResilia">
+        <header>
+            <!-- menu -->
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" id="hover-logo" href="/home.html">ResiliaFlix</a>
+                    <!--barra de pesquisa-->
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav w-100 justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link" id="hover-links" href="./cadastro.html">Inscreva-se</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="hover-links" href="./contato.html">Contato</a>
+                            </li>
+                            <li class="nav-item">
+                                <button type="submit" class="btn btn-default"><a href="./index.html"
+                                        id="link-sign-in">Sign in</a></button>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div id="main-container">
+            <h1>Cadastre-se</h1>
+            <form id="register-form">
+                <div class="full-box ">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                </div>
+                <div class="half-box spacing">
+                    <label for="name">Nome</label>
+                    <input type="name" name="name" id="name" placeholder="Digite o seu nome">
+                </div>
+                <div class="half-box">
+                    <label for="text">RG</label>
+                    <input type="text" name="numer" id="rg" placeholder="Digite o seu RG">
+                </div>
+
+                <div class="half-box spacing">
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" id="password" placeholder="Digite a sua senha">
+                </div>
+                <div class="half-box">
+                    <label for="passconfirmation">Confirmação de senha</label>
+                    <input type="password" name="passconfirmation" id="passconfirmation"
+                        placeholder="Confirme sua senha">
+                </div>
+                <div class="half-box spacing">
+                    <label for="cep">Cep</label>
+                    <input type="text" name="text" id="cep" placeholder="Digite o seu cep">
+                </div>
+                <div class="half-box">
+                    <label for="endereco">Endereço</label>
+                    <input type="text" name="text" id="endereco" readonly>
+                </div>
+                <div class="half-box spacing">
+                    <label for="number">Número</label>
+                    <input type="text" name="text" id="numero" placeholder="">
+                </div>
+                <div class="half-box">
+                    <label for="bairro">Bairro</label>
+                    <input type="text" name="text" id="bairro" readonly>
+                </div>
+                <div class="half-box spacing">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" name="text" id="cidade" readonly>
+                </div>
+                <div class="half-box">
+                    <label for="estado">Estado</label>
+                    <input type="text" name="text" id="estado" readonly>
+                </div>
+                <div class="full-box">
+                    <input type="checkbox" name="agreement" id="agreement">
+                    <label for="agreement" id="agreement-label">Eu li e aceito os <a href="#">termos de uso</a></label>
+                </div>
+                <div class="full-box">
+                    <input type="submit" id="btn-submit" value="Registrar">
+                </div>
+
             </form>
-        </form>
-    </div>
-    <p class="error-validation template"></p>
-<<<<<<< HEAD
+        </div>
+        <p class="error-validation template"></p>
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="./JavaScript/controller/requisiçãoAPIBuscaCEP.js"></script>
-    <footer class="rodape">
-        <p1> &#169 ResiliaFlix all rights reserved</p1>
-    </footer>
-
-    <script src="./JavaScript/views/validacaoDoCampoDePesquisa.js"></script>
-
-=======
-    <!-- jquery email e senha -->
-    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js" ></script>
-    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/jquery.validate.min.js" ></script>
-    <script src="/Resiliaflix/JavaScript/views/validaçãoEmailSenhaJquery.js"></script>
->>>>>>> 41eb4f44c86b2f93bfb94bab2c291089bed013d2
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="./JavaScript/controller/requisiçãoAPIBuscaCEP.js"></script>
+        <script src="./JavaScript/views/validacaoDoCampoDePesquisa.js"></script>
+        <footer class="rodape">
+            <p1> &#169 ResiliaFlix all rights reserved</p1>
+        </footer>
 </body>
+
 </html>

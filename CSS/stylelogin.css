@@ -12,6 +12,18 @@ body{
     font-family: 'Arimo', sans-serif;
 }
 /* header */
+ .sign-in:hover {
+     background-color: #fde662;
+ }
+
+ .hover-logo:hover {
+    color: #C0A405;
+}
+ 
+ #link-sign-in {
+     text-decoration: none;
+     color: black;
+ }
 /*logo menu*/
 .logomenu{
     width: 250px;
@@ -63,7 +75,7 @@ label, input{
     height: 25px;
 }
 /*css da pag recuperaçãoSenha*/
-h1{
+.form-group h1{
     color: #F2E8E4;
     font-weight: 600;
     font-size: 30px;
@@ -91,7 +103,6 @@ h1{
 label.error { 
     color: #ffdf2b;
 }
-<<<<<<< HEAD
 
 /*rodape*/
 .rodape p1{
@@ -138,6 +149,7 @@ main{
     margin: 20px 0 0 0;
 }
 /* busca*/
+<<<<<<< HEAD
 .form-control {
     width: 300px;
     background-color: #222222;
@@ -197,6 +209,8 @@ main{
     object-position: 0 5%;
     height: 300px;
 }
+=======
+
+>>>>>>> 11e3f51f0f3e0c07de2f9c244926deb930489dd3
 
 
->>>>>>> 41eb4f44c86b2f93bfb94bab2c291089bed013d2
