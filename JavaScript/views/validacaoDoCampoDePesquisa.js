@@ -1,38 +1,35 @@
 
-function openPage() {
-    let x = document.getElementById("search").value;
-    let transformando = x.toLowerCase();
-    let listaDeFilmes = [
-        'de volta para o futuro',
-        'star Wars',
-        'star trek',
-        'matrix',
-        'interstellar',
-        '2001 uma odisseia no espaço',
-        'blade runner',
-        'a chegada',
-        'her',
-        'wall-e',
-        'jogador numero 1',
-        'inception',];
-
-    for (let i = 0; i < listaDeFilmes.length; i++) {
-        console.log(listaDeFilmes)
-        if (transformando === listaDeFilmes[i]) {
-            pegaFilme();
-            //window.open('/deucerto.html')
-        }
-
+function procuraFilmes (){
+    const listaFilmes = {
+        tt0088763: 'devoltaparaofuturo', 
+        tt0120915: 'starwars',
+        tt1408101: 'startrek',
+        tt0133093: 'matrix',
+        tt0816692: 'interstellar',
+        tt0062622: '2001umaodisseianoespaço', 
+        tt0083658: 'bladerunner', 
+        tt0115571: 'achegada', 
+        tt1798709: 'her', 
+        tt0181689: 'minorityreport ', 
+        tt1677720: 'jogadornumero1',
+        tt1375666: 'inception', 
     }
-    try {
-        for (let i = 0; i < listaDeFilmes.length; i++) {
-            if (transformando != listaDeFilmes[i]) {
-                window.open("/erro404.html");
-
+    function findValue(elementosDaLista, value){
+        for (var valores in elementosDaLista){
+            if(elementosDaLista.hasOwnProperty(valores) && elementosDaLista[valores] === value){
+                return valores;
             }
         }
+        //se o valor digitado na busca nao existir, retorne algo
+        return window.location = 'erro404.html';
+    }
 
-    } catch (erro) {
-        window.open("/erro404.html");
-
-    }}
+        //valor da busca
+        var inputDeBusca = document.getElementById('search').value;
+        //junta os nomes da busca
+        var juntaNomeBusca = inputDeBusca.split(' ').join('').toLowerCase();
+        //procura na lista do filme o codigo equivalente ao nome da busca
+        let codigoFinal = findValue(listaFilmes, juntaNomeBusca);
+        
+        return codigoFinal;
+}

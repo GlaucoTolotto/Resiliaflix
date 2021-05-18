@@ -7,7 +7,7 @@ $(document).ready(function() {
         $("#cidade").val("");
         $("#estado").val("");
     }
-
+    
     //Quando o campo cep perde o foco.
     $("#cep").blur(function() {
 
@@ -28,7 +28,7 @@ $(document).ready(function() {
                 $("#bairro").val("...");
                 $("#cidade").val("...");
                 $("#estado").val("...");
-
+                
                 //Consulta o webservice viacep.com.br/
                 $.getJSON("https://viacep.com.br/ws/"+ cep +"/json/?callback=?", function(dados) {
 
@@ -57,4 +57,4 @@ $(document).ready(function() {
             limpa_formulário_cep();
         }
     });
-}); 
+});

@@ -157,6 +157,19 @@ input [type="submit"] {
     color: black;
     background-color: #FFDF2B;
 }
+#hover-links:hover {
+    color:white; 
+ }
+ 
+ 
+ .sign-in:hover {
+     background-color: #fde662;
+ }
+ 
+ #link-sign-in {
+     text-decoration: none;
+     color: black;
+ }
 
 #hover-links:hover {
     color:white;

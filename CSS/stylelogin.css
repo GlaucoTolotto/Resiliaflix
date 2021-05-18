@@ -12,6 +12,14 @@ body{
     font-family: 'Arimo', sans-serif;
 }
 /* header */
+ .sign-in:hover {
+     background-color: #fde662;
+ }
+ 
+ #link-sign-in {
+     text-decoration: none;
+     color: black;
+ }
 /*logo menu*/
 .logomenu{
     width: 250px;
@@ -91,7 +99,6 @@ h1{
 label.error { 
     color: #ffdf2b;
 }
-<<<<<<< HEAD
 
 /*rodape*/
 .rodape p1{
@@ -105,7 +112,6 @@ label.error {
     color:#FFDF2B; 
     
 }
-=======
 /* css da pag home */
 .fitaImg{
     display: inline-block;
@@ -200,4 +206,3 @@ label.error {
 }
 
 
->>>>>>> 41eb4f44c86b2f93bfb94bab2c291089bed013d2
