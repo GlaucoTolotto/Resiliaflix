@@ -75,6 +75,17 @@ header img {
 .caixa-de-contato h3{
     margin-top: 10px;
 }
+.caixa-de-contato:hover{
+    color: #FFDF2B ;
+    background-color: black;
+    transition:ease-in-out 0.3s;
+}
+
+/*icones de redes sociais*/
+.icones{
+    display: inline-block;
+    justify-content: space-between;
+}
 
 
 /* foto da natalia com propreidade diferente pois tem diametros diferentes por isso em id  */
