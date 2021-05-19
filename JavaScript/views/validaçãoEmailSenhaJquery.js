@@ -8,7 +8,11 @@ $(document).ready(function(){
             senha:{
                 required: true,
                 rangelength:[4,10]
-            }    
+            }, 
+            senha2:{
+                required: true,
+                equalTo: "#senha"
+            }   
         },
         messages:{
             email:{
@@ -18,6 +22,10 @@ $(document).ready(function(){
             senha:{
                 required: "Este campo é obrigatório",
                 rangelength:"Sua senha deve ter de 4 a 10 caracteres"
+            },
+            senha2:{
+                required: "Este campo é obrigatório",
+                equalTo: "As senhas são diferentes"
             }    
         }
     });
