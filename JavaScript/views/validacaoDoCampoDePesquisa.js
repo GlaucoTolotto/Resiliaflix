@@ -25,7 +25,7 @@ function procuraFilmes (){
     }
 
         //valor da busca
-        var inputDeBusca = document.getElementById('search').value;
+        var inputDeBusca = $('#barraPesquisa').val();
         //junta os nomes da busca
         var juntaNomeBusca = inputDeBusca.split(' ').join('').toLowerCase();
         //procura na lista do filme o codigo equivalente ao nome da busca
@@ -33,3 +33,4 @@ function procuraFilmes (){
         
         return codigoFinal;
 }
+

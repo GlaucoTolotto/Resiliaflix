@@ -21,18 +21,19 @@
       <!-- menu -->
       <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid">
-          <a class="navbar-brand" id="hover-logo" href="/home.html">ResiliaFlix</a>
+          <a class="navbar-brand" id="hover-logo" href="#">ResiliaFlix</a>
           <!--barra de pesquisa-->
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav w-100 justify-content-end">
               <li class="nav-item">
                 <a class="nav-link" href="./cadastro.html">Inscreva-se</a>
               </li>
-              <li class="nav-item" >
+              <li class="nav-item">
                 <a class="nav-link" href="./contato.html">Contato</a>
               </li>
               <li class="nav-item">
-                <button type="submit" class="btn btn-default sign-in" ><a href="./index.html" id="link-sign-in">Sign in</a></button>
+                <button type="submit" class="btn btn-default sign-in"><a href="./index.html" id="link-sign-in">Sign
+                    in</a></button>
               </li>
             </ul>
           </div>
@@ -54,7 +55,8 @@
             </div>
             <div class="form-group text-center">
               <div class="col-sm-offset-2 col-sm-10 ">
-                <button type="submit" class="bntSenha btn btn-default offset-md-3">RECUPERAR</button>
+                <button type="submit" id="btnRecuperar" class="bntSenha btn btn-default offset-md-3"
+                  onclick="alertEmail()">RECUPERAR</button>
               </div>
             </div>
           </form>
@@ -65,7 +67,8 @@
   <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
   <script type="text/javascript"
     src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/jquery.validate.min.js"></script>
-  <script src="/Resiliaflix/JavaScript/views/validaçãoEmailSenhaJquery.js"></script>
+  <script src="./JavaScript/views/validacaoEmailSenhaJquery.js"></script>
+  <script src="JavaScript/views/emailEnviado.js"></script>
 </body>
 
 </html>
