@@ -39,8 +39,8 @@
 main{
     margin: 20px 0 0 0;
 }
-.hover-logo:hover {
-    color: #C0A405;
+.navbar-light .navbar-brand:hover {
+    color: #ffc107;
 }
 .form-control {
     width: 300px;

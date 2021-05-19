@@ -12,7 +12,11 @@ body{
     font-family: 'Arimo', sans-serif;
 }
 /* header */
- .sign-in:hover {
+.navbar-light .navbar-brand:hover {
+    color: #ffc107;
+}
+
+.sign-in:hover {
      background-color: #fde662;
  }
 

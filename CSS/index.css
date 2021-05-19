@@ -2,7 +2,9 @@
     --primary-color: rgb(255, 223, 43);
     --secondary-color: rgb(242, 232, 197);
 }
-
+.navbar-light .navbar-brand:hover {
+    color: #ffc107;
+}
 /* main{
     display: flex;
     flex-wrap: wrap;
