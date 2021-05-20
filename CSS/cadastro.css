@@ -17,7 +17,9 @@
 .hover-logo:hover {
     color: #C0A405;
 }
-
+.error{
+    color: #C0A405;
+}
 .logo{
     display: block;
     width: 250px;
