@@ -1,14 +1,18 @@
 $(document).ready(function(){
-    $('#formLogin').validate({
-        rules: {
+    $('#register-form').validate({
+        rules:{
             email:{
                 required: true,
                 email: true
             },
             senha:{
                 required: true,
-                rangelength:[4,10]
-            }    
+                rangelength: [4,10]
+            },
+            senha2:{
+                required: true,
+                equalTo: "#senha"
+            }
         },
         messages:{
             email:{
@@ -17,8 +21,13 @@ $(document).ready(function(){
             },
             senha:{
                 required: "Este campo é obrigatório",
-                rangelength:"Sua senha deve ter de 4 a 10 caracteres"
-            }    
+                rangelength: "Sua senha deve ter de 4 a 10 caracteres"
+            },
+            senha2:{
+                required: "Este campo é obrigatório",
+                equalTo: "As senhas não correspondem"
+            }
         }
     });
+    
 });

@@ -12,6 +12,8 @@
     border-radius: 3px;
     border: none;
     cursor: pointer;
+    color: black;
+    padding: 10px;
 }
 .btnEnviar{
     color: black;
@@ -39,8 +41,8 @@
 main{
     margin: 20px 0 0 0;
 }
-.hover-logo:hover {
-    color: #C0A405;
+.navbar-light .navbar-brand:hover {
+    color: #ffc107;
 }
 .form-control {
     width: 300px;
@@ -58,6 +60,21 @@ main{
     object-position: 0 50%;
     height: 300px;
 }
+
+.container-geral-info-filmes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #222222;
+    background-color: #FFDF2B;
+    padding: 25px;
+    margin: 25px 30px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .informacoes-filmes {
     display: flex;
 }
@@ -71,4 +88,3 @@ main{
     padding: 50px;
     font-weight: 500;
 } 
-

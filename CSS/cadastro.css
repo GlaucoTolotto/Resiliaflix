@@ -17,7 +17,9 @@
 .hover-logo:hover {
     color: #C0A405;
 }
-
+.error{
+    color: #C0A405;
+}
 .logo{
     display: block;
     width: 250px;
@@ -35,9 +37,7 @@
     background-color: #C0A405;
     transition: ease-in-out;
 }
-label, input{
-    color: #fdf9f9;
-}
+
 .bntlogin{
     margin-top: 5px;
     margin-bottom: 5px;
@@ -61,7 +61,12 @@ label, input{
     height: 25px;
 }
 /* area de cadastro */
-input, label {
+label {
+    display: block;
+    width: 100%;
+    color: white;
+}
+input{
     display: block;
     width: 100%;
 }
