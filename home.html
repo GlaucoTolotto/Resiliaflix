@@ -42,7 +42,7 @@
       <p class="pheader">Confira nossos filmes</p>
     
     <div class="busca">
-      <input type="search" name="search" id="barraPesquisa" onchange="buscaFilme()">
+      <input type="search" name="search" id="barraPesquisa" placeholder='Busca por nome do filme' onchange="buscaFilme()">
       <button type="submit" class="btn btn-outline-warning btnEnviar" id="search" onclick="buscaFilme()">enviar</button>
     </div>
     <div class="row">
@@ -51,58 +51,48 @@
         <div class="col-12">
           <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="imagens/filmes/2001.png" class="d-block w-100 imagem-carrossel" alt="2001">
-                <button type="button" class="btn btn-outline-warning botaoFilm">Informações</button>
-              </div>
-              <div class="carousel-item">
-                <img src="imagens/filmes/arrival.png" class="d-block w-100 imagem-carrossel-um" alt="arrival">
-                <button type="button" class="btn btn-outline-warning botaoFilm">Informações</button>
-              </div>
-              <div class="carousel-item">
-                <img src="imagens/filmes/backtothefuture.png" class="d-block w-100 imagem-carrossel-dois"
-                  alt="backtothefuture">
-                <button type="button" class="btn btn-outline-warning botaoFilm">Informações</button>
-              </div>
-              <div class="carousel-item">
-                <img src="imagens/filmes//bladerunner.png" class="d-block w-100 imagem-carrossel-tres"
-                  alt="bladerunner">
-                <button type="button" class="btn btn-outline-warning botaoFilm">Informações</button>
-              </div>
-              <div class="carousel-item">
-                <img src="imagens/filmes/her.png" class="d-block w-100 imagem-carrossel-quatro" alt="her">
-                <button type="button" class="btn btn-outline-warning botaoFilm">Informações</button>
-              </div>
-              <div class="carousel-item">
-                <img src="imagens/filmes/inception.png" class="d-block w-100 imagem-carrossel-cinco" alt="inception">
-                <button type="button" class="btn btn-outline-warning botaoFilm">Informações</button>
-              </div>
-              <div class="carousel-item">
-                <img src="imagens/filmes/interstellar.png" class="d-block w-100 imagem-carrossel-seis"
-                  alt="interstellar">
-                <button type="button" class="btn btn-outline-warning botaoFilm">Informações</button>
-              </div>
-              <div class="carousel-item">
-                <img src="imagens/filmes/jogadorn1.png" class="d-block w-100 imagem-carrossel-sete" alt="jogadorn1">
-                <button type="button" class="btn btn-outline-warning botaoFilm">Informações</button>
-              </div>
-              <div class="carousel-item">
-                <img src="imagens/filmes/matrix.png" class="d-block w-100 imagem-carrossel-oito" alt="matrix">
-                <button type="button" class="btn btn-outline-warning botaoFilm">Informações</button>
-              </div>
-              <div class="carousel-item">
-                <img src="imagens/filmes/minorityreport.png" class="d-block w-100 imagem-carrossel-nove"
-                  alt="minorityreport">
-                <button type="button" class="btn btn-outline-warning botaoFilm">Informações</button>
-              </div>
-              <div class="carousel-item">
-                <img src="imagens/filmes/startrek.png" class="d-block w-100 imagem-carrossel-dez" alt="startrek">
-                <button type="button" class="btn btn-outline-warning botaoFilm">Informações</button>
-              </div>
-              <div class="carousel-item">
-                <img src="imagens/filmes/starwars.png" class="d-block w-100 imagem-carrossel-oito" alt="starwars">
-                <button type="button" class="btn btn-outline-warning botaoFilm">Informações</button>
-                <div class="carousel-caption d-none d-md-block h-50 titulocar">
+              <div class="imagensTeste">
+                <div class="carousel-item active">
+                  <img src="imagens/filmes/2001.png" class="d-block w-100 imagem-carrossel" alt="2001">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagens/filmes/arrival.png" class="d-block w-100 imagem-carrossel-um" alt="arrival">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagens/filmes/backtothefuture.png" class="d-block w-100 imagem-carrossel-dois"
+                    alt="backtothefuture">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagens/filmes//bladerunner.png" class="d-block w-100 imagem-carrossel-tres"
+                    alt="bladerunner">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagens/filmes/her.png" class="d-block w-100 imagem-carrossel-quatro" alt="her">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagens/filmes/inception.png" class="d-block w-100 imagem-carrossel-cinco" alt="inception">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagens/filmes/interstellar.png" class="d-block w-100 imagem-carrossel-seis"
+                    alt="interstellar">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagens/filmes/jogadorn1.png" class="d-block w-100 imagem-carrossel-sete" alt="jogadorn1">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagens/filmes/matrix.png" class="d-block w-100 imagem-carrossel-oito" alt="matrix">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagens/filmes/minorityreport.png" class="d-block w-100 imagem-carrossel-nove"
+                    alt="minorityreport">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagens/filmes/startrek.png" class="d-block w-100 imagem-carrossel-dez" alt="startrek">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagens/filmes/starwars.png" class="d-block w-100 imagem-carrossel-oito" alt="starwars">
+                  <div class="carousel-caption d-none d-md-block h-50 titulocar">
+                  </div>
                 </div>
               </div>
             </div>
@@ -139,6 +129,7 @@
         crossorigin="anonymous"></script>
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="./JavaScript/model/buscadorDeFilme.js"></script>
       <script src="./JavaScript/views/validacaoDoCampoDePesquisa.js"></script>
       <script src="JavaScript/controller/requisiçãoAPI-OMDB.js"></script>
       <script src="./JavaScript/views/infoFilmes.js"></script>
