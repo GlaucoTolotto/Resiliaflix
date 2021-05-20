@@ -66,7 +66,7 @@
             if (obj.img == src) {
                 function buscaFilme(){
                         $.ajax({
-                            url: (`http://www.omdbapi.com/?i=${obj.imdbID}&apikey=35ec292f`),
+                            url: (`https://www.omdbapi.com/?i=${obj.imdbID}&apikey=35ec292f`),
                             success: function(result){
                                 pegaFilme2(result);
                                 keepGoing = false;
