@@ -14,9 +14,14 @@
     font-family: 'Arimo', sans-serif;
 }
 
-.hover-logo:hover {
+.navbar-light .navbar-brand:hover {
     color: #C0A405;
 }
+
+#hover-links:hover {
+    color: #C0A405;
+}
+
 .error{
     color: #C0A405;
 }
@@ -99,6 +104,7 @@ body {
     text-align: center;
     margin-bottom: 25px;
     font-size: 1.6rem;
+    color: white;
 }
 
 #register-form {
@@ -165,9 +171,7 @@ input [type="submit"] {
     color: black;
     background-color: #FFDF2B;
 }
-#hover-links:hover {
-    color:white; 
- }
+
  
  
  .sign-in:hover {
@@ -179,9 +183,6 @@ input [type="submit"] {
      color: black;
  }
 
-#hover-links:hover {
-    color:white;
-}
 
 .sign-in:hover {
     background-color: #fde662;

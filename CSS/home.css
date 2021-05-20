@@ -44,6 +44,11 @@ main{
 .navbar-light .navbar-brand:hover {
     color: #ffc107;
 }
+
+#hover-links:hover {
+    color: #C0A405;
+}
+
 .form-control {
     width: 300px;
     background-color: #222222;
@@ -88,3 +93,7 @@ main{
     padding: 50px;
     font-weight: 500;
 } 
+
+#blocoMain img{
+    cursor: pointer;
+}

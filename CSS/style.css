@@ -35,3 +35,6 @@ body{
     width: 42%;
 }
 
+#hover-links:hover {
+    color: #C0A405;
+}

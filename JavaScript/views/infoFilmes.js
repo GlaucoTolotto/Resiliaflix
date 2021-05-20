@@ -8,9 +8,7 @@ function pegaFilme(result) {
     $('#director').html(result.Director);
     //$('#critica').html(result.Ratings);
 }
-
 respostaApi(); 
-
 function pegaFilme2(result) {
     //$('#blocoMain').attr('hidden', true);
     $('.container-geral-info-filmes').attr('hidden', false);
