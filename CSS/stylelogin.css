@@ -19,6 +19,9 @@ body{
  .hover-logo:hover {
     color: #C0A405;
 }
+.nav-link:hover {
+    color: #C0A405;
+}
  
  #link-sign-in {
      text-decoration: none;
